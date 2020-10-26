@@ -1,0 +1,35 @@
+.how-to-use{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    color:red;
+   
+}
+
+
+.p-use{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.p-use > div{
+   width: 24%;
+   border-radius: 20px;
+   border:2px solid gray;
+   align-items: center;
+
+}
+@media(max-width:600px){
+    .p-use{
+        flex-direction: column;
+       
+    }
+    .p-use > div{
+       width:99%;
+       margin-top: 10px;
+    }
+}

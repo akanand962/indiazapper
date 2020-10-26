@@ -1,0 +1,195 @@
+
+.about-product{
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url('../assets/3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    padding: 30px 0px;
+}
+.card{
+    width: 31%;
+    height:140px;
+    background-color: rgb(116 175 164)!important;
+    text-align: center;
+   font-size: larger;
+   color: #ffff;
+   font-weight: 700;
+}
+.p-function{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.p-image{
+    width: 100%;
+    
+}
+
+.buy-product{
+    position: relative;
+    top: -244px;
+    /* left: 521px; */
+}
+.p-name{
+ 
+    display: flex;
+    justify-content: center;
+}
+.p-name >p{
+  text-align: center;
+  font-size:40px;
+  font-weight: 600;
+  color: black; 
+  border-bottom: 2px solid green;
+ 
+
+}
+/* description title start */
+.des-title{
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.des-title >p{
+    text-align: center;
+    font-size:40px;
+    font-weight: 600;
+    color: black; 
+    border-bottom: 2px solid green;
+}
+
+/* use title start */
+.use-title{
+   
+    display: flex;
+    justify-content: center;
+   
+}
+.use-title >p{
+    text-align: center;
+    font-size:40px;
+    font-weight: 600;
+    color: black; 
+    border-bottom: 2px solid green;
+}
+
+
+
+.pro-dess{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:50px;
+
+}
+.des-div{
+    width: 45%;
+}
+
+.how-use{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    padding-bottom:50px;
+}
+.use-div{
+    width:45%;
+}
+.p-use{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color:black
+}
+.p-des{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: black
+  }
+.how-to-use{
+    background-color:white;
+}
+
+
+
+.client-slider{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#fde090;
+    background-image: url('../assets/about-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.main{
+    padding: 30px;
+    text-align: center;
+}
+.qut{
+  font-size: larger;
+}
+.dex{
+    font-size:12px;
+    padding-right: 114px;
+    padding-left:114px;
+}
+.client-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* use div media query start */
+
+/* use div media query end */
+
+.link-btn{
+    text-decoration: none;
+    color: white !important;
+}
+
+@media(max-width:600px){
+    .buy-product {
+        position: relative;
+        top: 2px;
+        /* left: 70px; */
+        
+    }
+}
+
+
+
+@media(max-width:600px){
+   .about-product{
+       flex-direction: column;
+   }
+   .card{
+    width:99%;
+    margin-bottom: 10px;
+}
+
+.how-use{      
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.use-div{
+ width:98%;
+}
+
+
+.pro-dess{
+   flex-direction: column;
+
+}
+.des-div{
+    width:99%;
+}
+}

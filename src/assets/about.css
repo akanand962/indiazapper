@@ -1,0 +1,31 @@
+.about{
+    background-image: url('../assets/banner1.jpg');
+    height:200px;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+   
+}
+
+.about-des{
+   display: flex;
+   justify-content: space-around;
+   margin: 20px 0px;
+}
+.img-div{
+       width:45%;
+}
+
+@media(max-width:600px){
+    .about-des{
+        flex-direction: column;
+    }
+    .img-div{
+        width:99%;
+ }
+}
+
+

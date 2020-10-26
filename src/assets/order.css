@@ -1,0 +1,58 @@
+.shiping-address{
+    display: flex;
+    justify-content:space-between;
+ margin-top: 30px;
+   margin-bottom: 20px;
+}
+.shiping-address >div{
+    width: 48%;
+   
+}
+.prod-des{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.prod-des >div{
+    width: 49%;
+ 
+   
+}
+.pre-amount{ 
+    text-decoration: line-through;
+    font-size:25px;
+    padding:2px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.amount{ 
+    color: red;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+@media(max-width:600px){
+    .shiping-address{
+        flex-direction: column;
+    }
+    .shiping-address > div{
+        width:99%;  
+        
+    }
+}
+
+
+@media(max-width:600px){
+    .prod-des{
+        flex-direction: column;
+    }
+    .prod-des >div{
+        width: 99%;
+       
+       
+    }
+}

@@ -1,0 +1,66 @@
+.mr-auto{
+    background-color: red;
+}
+.order-btn{
+    padding: 3px 6px;
+    border-radius:15px;
+    border: 1px solid #241e29;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+
+   
+}
+.buynow{
+    padding: 4px 25px !important;
+    border-radius: 47px;
+    border: 2px solid #007BFF;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+      
+}
+.track-order{
+    display: flex;
+    color: red;
+}
+.social-icon{
+   display: flex;
+   justify-content: flex-end;
+}
+.fa {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding: 8px !important;
+  }
+  .fa:hover {
+    opacity: 0.8;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.a{
+  text-decoration: none;
+  color: white;
+}
+@media(max-width:600px){
+  .track-order{
+    flex-direction: row;
+  }
+  
+}
