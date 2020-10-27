@@ -2,7 +2,10 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-import banner1 from '../assets/zapper new.jpg'
+import banner1 from '../assets/images/zapper new.jpg'
+import banner2 from '../assets/images/SLIDE 2.jpg'
+import banner3 from '../assets/images/SLIDE 3.jpg'
+
 
 export default function Slider() {
     return (
@@ -13,11 +16,11 @@ export default function Slider() {
                    
                 </div>
                 <div>
-                    <img src={banner1}  />
+                    <img src={banner2}  />
                    
                 </div>
                 <div>
-                    <img src={banner1}  />
+                    <img src={banner3}  />
                    
                 </div>
                

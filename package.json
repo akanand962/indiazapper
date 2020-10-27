@@ -1,5 +1,6 @@
 {
   "name": "india-zapper",
+  "homepage": "https://akanand962.github.io/indiazapper",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
     "firebase": "^7.24.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-elastic-carousel": "^0.9.0",
@@ -16,6 +18,8 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

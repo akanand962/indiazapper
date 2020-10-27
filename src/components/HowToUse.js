@@ -1,7 +1,7 @@
 import React from 'react'
-import '../assets/how-to-use.css'
-import proImg1 from '../assets/product3.jpg'
-import proImg2 from '../assets/product2.png'
+import '../assets/css/how-to-use.css'
+import proImg1 from '../assets/images/product3.jpg'
+import proImg2 from '../assets/images/product2.png'
 
 
 export default function HowToUse() {

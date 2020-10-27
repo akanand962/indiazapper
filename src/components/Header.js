@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../assets/header.css";
+import "../assets/css/header.css";
+import logo from '../assets/images/logo.png'
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -32,10 +33,13 @@ export default function Header() {
         </div>
       </nav>
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-primary ">
-        <a className="navbar-brand text-white" href="#">
-          India Zapper
-        </a>
+     
+     
+      <nav className=" navbar navbar-expand-lg navbar-light bg-light ">
+       
+        <Link className="navbar-brand" to="/indiazapper">
+          <img src={logo}  alt='logo' width='13%' height='13%'/>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -50,20 +54,20 @@ export default function Header() {
         {/* <div className={"collapse navbar-collapse" + show}> */}
         <div className={"collapse navbar-collapse  " + show}>
           <div className="navbar-nav ml-auto ">
-            <Link className="nav-link active" to="/">
+            <Link className="nav-link active" text-seccess to="/indiazapper">
               Home <span class="sr-only">(current)</span>
             </Link>
-            <Link className="nav-link text-white" to="/about">
+            <Link className="nav-link text-dark" to="/about">
               About
             </Link>
-            <Link className="nav-link text-white " to="/our-product">
+            <Link className="nav-link text-dark " to="/our-product">
               Our Product
             </Link>
-            <Link className="nav-link text-white" to="/how-to-use">
+            <Link className="nav-link text-dark" to="/how-to-use">
               How to Use
             </Link>
             {/* <Link className="nav-link text-white" to='/contact-us'>Contact us</Link> */}
-            <Link className="nav-link text-white buynow" to="/contact-us">
+            <Link className="nav-link text-dark buynow" to="/contact-us">
               BUY NOW
             </Link>
           </div>

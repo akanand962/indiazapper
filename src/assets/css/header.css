@@ -1,6 +1,8 @@
 .mr-auto{
     background-color: red;
 }
+
+
 .order-btn{
     padding: 3px 6px;
     border-radius:15px;
@@ -9,6 +11,9 @@
     color: white;
 
    
+}
+.nav-link{
+ white-space: nowrap;
 }
 .buynow{
     padding: 4px 25px !important;

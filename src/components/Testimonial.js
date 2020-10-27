@@ -1,7 +1,7 @@
 import React from 'react'
  import Carousel from "react-elastic-carousel";
 import Item from './Item'
-import img2 from "../assets/zapper img3.png";
+import img2 from "../assets/images/zapper img3.png";
 
 
 const breakPoints = [

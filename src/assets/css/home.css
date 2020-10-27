@@ -2,10 +2,7 @@
 .about-product{
     display: flex;
     justify-content: space-around;
-    /* background-image: url('../assets/3.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; */
+  
     padding: 30px 0px;
 }
 .card{
@@ -124,7 +121,7 @@
     justify-content: center;
     height: 100vh;
     background-color:#fde090;
-    background-image: url('../assets/about-banner.jpg');
+    background-image: url('../images/about-banner.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

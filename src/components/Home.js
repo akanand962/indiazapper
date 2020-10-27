@@ -1,10 +1,10 @@
 import React from "react";
-import "../assets/home.css";
+import "../assets/css/home.css";
 import {Link} from 'react-router-dom'
-import img1 from "../assets/zapper img2.jpg";
-import img2 from "../assets/zapper img3.png";
-import img3 from "../assets/zapper img4.png";
-import productImage from "../assets/zapper new.jpg";
+import img1 from "../assets/images/zapper img2.jpg";
+import img2 from "../assets/images/zapper img3.png";
+import img3 from "../assets/images/zapper img4.png";
+import productImage from "../assets/images/zapper new.jpg";
 import Carousel from "react-elastic-carousel";
 import Slider from './Slider'
  import Testimonial from "./Testimonial";

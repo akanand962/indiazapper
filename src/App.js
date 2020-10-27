@@ -25,7 +25,7 @@ function App() {
 <Header/>
 <Carousel/>
 <Switch>
-<Route path='/' exact component={Home}/>
+<Route path='/indiazapper' exact component={Home}/>
 <Route path='/about' exact component={About}/>
 <Route path='/our-product' exact component={OurProduct}/>
 
