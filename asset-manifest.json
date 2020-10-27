@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/indiazapper/static/css/main.6c92703d.chunk.css",
-    "main.js": "/indiazapper/static/js/main.ed9e68b1.chunk.js",
-    "main.js.map": "/indiazapper/static/js/main.ed9e68b1.chunk.js.map",
+    "main.css": "/indiazapper/static/css/main.8fa7c0e1.chunk.css",
+    "main.js": "/indiazapper/static/js/main.8aaa53cc.chunk.js",
+    "main.js.map": "/indiazapper/static/js/main.8aaa53cc.chunk.js.map",
     "runtime-main.js": "/indiazapper/static/js/runtime-main.e2b1dd37.js",
     "runtime-main.js.map": "/indiazapper/static/js/runtime-main.e2b1dd37.js.map",
     "static/css/2.c8bd06df.chunk.css": "/indiazapper/static/css/2.c8bd06df.chunk.css",
-    "static/js/2.a0660129.chunk.js": "/indiazapper/static/js/2.a0660129.chunk.js",
-    "static/js/2.a0660129.chunk.js.map": "/indiazapper/static/js/2.a0660129.chunk.js.map",
+    "static/js/2.4ff748bc.chunk.js": "/indiazapper/static/js/2.4ff748bc.chunk.js",
+    "static/js/2.4ff748bc.chunk.js.map": "/indiazapper/static/js/2.4ff748bc.chunk.js.map",
     "index.html": "/indiazapper/index.html",
-    "precache-manifest.8633d7c7f64a2ef5c876c7aadf44915f.js": "/indiazapper/precache-manifest.8633d7c7f64a2ef5c876c7aadf44915f.js",
+    "precache-manifest.e6ffdec4809cebb4a9ce21e2cb446b94.js": "/indiazapper/precache-manifest.e6ffdec4809cebb4a9ce21e2cb446b94.js",
     "service-worker.js": "/indiazapper/service-worker.js",
     "static/css/2.c8bd06df.chunk.css.map": "/indiazapper/static/css/2.c8bd06df.chunk.css.map",
-    "static/css/main.6c92703d.chunk.css.map": "/indiazapper/static/css/main.6c92703d.chunk.css.map",
-    "static/js/2.a0660129.chunk.js.LICENSE.txt": "/indiazapper/static/js/2.a0660129.chunk.js.LICENSE.txt",
+    "static/css/main.8fa7c0e1.chunk.css.map": "/indiazapper/static/css/main.8fa7c0e1.chunk.css.map",
+    "static/js/2.4ff748bc.chunk.js.LICENSE.txt": "/indiazapper/static/js/2.4ff748bc.chunk.js.LICENSE.txt",
     "static/media/3.jpg": "/indiazapper/static/media/3.878aafa9.jpg",
+    "static/media/SLIDE 2.jpg": "/indiazapper/static/media/SLIDE 2.8f2a1aa8.jpg",
+    "static/media/SLIDE 3.jpg": "/indiazapper/static/media/SLIDE 3.f9242ceb.jpg",
     "static/media/home.css": "/indiazapper/static/media/about-banner.9a5db07d.jpg",
     "static/media/about.css": "/indiazapper/static/media/banner1.503da5e7.jpg",
+    "static/media/logo.png": "/indiazapper/static/media/logo.af7363aa.png",
     "static/media/product1.jpg": "/indiazapper/static/media/product1.aa0eab6b.jpg",
     "static/media/product2.png": "/indiazapper/static/media/product2.fb2777db.png",
     "static/media/product3.jpg": "/indiazapper/static/media/product3.cd27b27d.jpg",
@@ -28,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.e2b1dd37.js",
     "static/css/2.c8bd06df.chunk.css",
-    "static/js/2.a0660129.chunk.js",
-    "static/css/main.6c92703d.chunk.css",
-    "static/js/main.ed9e68b1.chunk.js"
+    "static/js/2.4ff748bc.chunk.js",
+    "static/css/main.8fa7c0e1.chunk.css",
+    "static/js/main.8aaa53cc.chunk.js"
   ]
 }
