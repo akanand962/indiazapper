@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "998c554b309a0e5659a5e73e932d61cd",
+    "revision": "be5300fef55bc7b0ec22d54a15b3632d",
     "url": "/indiazapper/index.html"
   },
   {
-    "revision": "945a6e462a09f4804fc9",
+    "revision": "b8292867f95530db9c42",
     "url": "/indiazapper/static/css/2.c8bd06df.chunk.css"
   },
   {
-    "revision": "b415fa96300bff6b6adb",
-    "url": "/indiazapper/static/css/main.8fa7c0e1.chunk.css"
+    "revision": "ca2e2ed37327d881a2e5",
+    "url": "/indiazapper/static/css/main.ee31b8e6.chunk.css"
   },
   {
-    "revision": "945a6e462a09f4804fc9",
-    "url": "/indiazapper/static/js/2.4ff748bc.chunk.js"
+    "revision": "b8292867f95530db9c42",
+    "url": "/indiazapper/static/js/2.f5b1b21a.chunk.js"
   },
   {
     "revision": "22c95ed68071a711843b9981e2bca1af",
-    "url": "/indiazapper/static/js/2.4ff748bc.chunk.js.LICENSE.txt"
+    "url": "/indiazapper/static/js/2.f5b1b21a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b415fa96300bff6b6adb",
-    "url": "/indiazapper/static/js/main.8aaa53cc.chunk.js"
+    "revision": "ca2e2ed37327d881a2e5",
+    "url": "/indiazapper/static/js/main.41eb4575.chunk.js"
   },
   {
     "revision": "5c0d031fe13e6a290836",
@@ -48,20 +48,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indiazapper/static/media/banner1.503da5e7.jpg"
   },
   {
+    "revision": "da7c478e7bef2e629beb928e069428f6",
+    "url": "/indiazapper/static/media/how-to-use-img1.da7c478e.jpg"
+  },
+  {
+    "revision": "50716ac0ed96543bcf1e2bf1a3802d18",
+    "url": "/indiazapper/static/media/how-to-use-img2.50716ac0.jpg"
+  },
+  {
+    "revision": "41d77ae10022eb2cb28deae510d12c9c",
+    "url": "/indiazapper/static/media/how-to-use-img3.41d77ae1.jpg"
+  },
+  {
     "revision": "af7363aa0c7cb5594bb41856f85a2849",
     "url": "/indiazapper/static/media/logo.af7363aa.png"
   },
   {
+    "revision": "8fb468045f9bc26885850b641af15e26",
+    "url": "/indiazapper/static/media/product-buy.8fb46804.jpg"
+  },
+  {
     "revision": "aa0eab6b654e0c547ea25e6ac0eed292",
     "url": "/indiazapper/static/media/product1.aa0eab6b.jpg"
-  },
-  {
-    "revision": "fb2777db6f4f86de0a690b8e3dff1065",
-    "url": "/indiazapper/static/media/product2.fb2777db.png"
-  },
-  {
-    "revision": "cd27b27dbb07b64aa4e3561060cf2711",
-    "url": "/indiazapper/static/media/product3.cd27b27d.jpg"
   },
   {
     "revision": "6d18868125e8d37b735df82534ae18e2",
