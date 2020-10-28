@@ -9,8 +9,10 @@ export default function Footer() {
             <h3>Connect with Us</h3>
              <p>161B-Basement ,Gujjar Dairy,Gautom Nagar 
                 New Delhi-110049</p>
-             <p>Mobile:123455667980 </p>
-             <p>Email:info@zapperindia@gmail.com</p>
+            
+        <a className="nav-link text-white fa fa-mobile" href="#"> 7290053590</a>
+        <a className="nav-link text-white fa fa-phone" href="#"> 011-47385182/69</a>
+        <a className="nav-link text-white fa fa-email" href="#"> Email:- vedic1804@gmail.com</a>
 
 
 

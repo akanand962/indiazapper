@@ -37,7 +37,8 @@ export default function Home() {
 
           <div className="card-body">
           <p className="card-text">
-            Another Product
+          
+            <a href='https://www.srivedicpratisthan.com/' >Another Product</a>
             </p>
           </div>
         </div>

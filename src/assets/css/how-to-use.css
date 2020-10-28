@@ -6,21 +6,36 @@
     align-items: center;
     padding: 20px 0px;
     margin-bottom: 20px;
-    color:red;
+    color:#077BBD;
+    font-weight: 600;
    
 }
-
+.how{
+    position: relative;
+    top: 60px;
+    color:#077BBD;
+    right: -99px;
+}
+.step{
+    position: relative;
+    top: 119px;
+    left: -573px;
+    /* right: -99px; */
+    color:#66B432;
+}
 
 .p-use{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    flex-direction: column;
+    background-image: url('../images/about-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .p-use > div{
-   width: 24%;
-   border-radius: 20px;
-   border:2px solid gray;
-   align-items: center;
+ padding: 20px 0px;
 
 }
 @media(max-width:600px){
