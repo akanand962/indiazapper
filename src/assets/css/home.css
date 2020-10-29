@@ -8,7 +8,7 @@
 .card{
     width: 31%;
     height:140px;
-    background-color: rgb(116 175 164)!important;
+  
     text-align: center;
    font-size: larger;
    color: #ffff;
@@ -127,6 +127,14 @@
     background-position: center;
     
 }
+.client{
+    background-color: #057ec5;
+    margin-bottom: -1px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
 .main{
     padding: 30px;
     text-align: center;
@@ -153,6 +161,29 @@
     color: white !important;
 }
 
+.carousel .slide .legend {
+   text-align: left !important;
+   color:red !important;
+   font-size:30px !important;
+  background-color: none;
+   transition: all .1s ease-in-out;
+   position: absolute;
+   bottom: 40px;
+   left: 50%;
+   margin-left: -45%;
+   width: 40%;
+   border-radius: 10px;
+   /* background: #000; */
+   color: #fff;
+   padding: 10px;
+   font-size: 12px;
+   text-align: center;
+   opacity: 0.25;
+   background-color: white !important;
+   
+   
+}
+
 @media(max-width:600px){
     .buy-product {
         position: relative;
@@ -170,7 +201,9 @@
    }
    .card{
     width:99%;
-    margin-bottom: 10px;
+    margin-bottom: 48px;
+    margin-top: 10px;
+    
 }
 
 .how-use{      

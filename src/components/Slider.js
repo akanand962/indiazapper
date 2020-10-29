@@ -9,19 +9,25 @@ import banner3 from '../assets/images/SLIDE 3.jpg'
 
 export default function Slider() {
     return (
-        <div>
-             <Carousel showArrows={true} autoPlay={true} infiniteLoop={true} interval={2000} showThumbs={false} >
+        <div >
+             <Carousel showArrows={true} autoPlay={true} infiniteLoop={true} interval={9000} showThumbs={false} >
                 <div>
                     <img src={banner1}  />
+                   
                    
                 </div>
                 <div>
                     <img src={banner2}  />
+                    <p className="legend">
+                        India No.1 Virus Killing Product
+                    </p>
+                    
                    
                 </div>
                 <div>
                     <img src={banner3}  />
-                   
+                    
+                    
                 </div>
                
             </Carousel>

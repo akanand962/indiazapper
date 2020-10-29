@@ -12,7 +12,8 @@ const breakPoints = [
   ];
 export default function Testimonial() {
     return (
-        <>
+        <> 
+        
         <Carousel breakPoints={breakPoints}>
            <Item className='main'>
            <img src={img2} alt='' width='50px' height='50px' className='client-image'/>

@@ -20,24 +20,18 @@ export default function Home() {
       <section className="container  about-product">
         <div className="card">
           <img src={img1} class="card-img-top" alt="product-image" />
-          <div className="card-body1">
-          
-          </div>
+         
         </div>
         <div className="card">
         <a href='https://www.srivedicpratisthan.com/' >
           <img src={img2} class="card-img-top" alt="product-image" />
           </a>
-          <div className="card-body">
          
-          </div>
         </div>
         <div className="card card-1">
           <img src={img3} class="card-img-top" alt="product-image" />
 
-          <div className="card-body">
          
-          </div>
         </div>
       </section>
 
@@ -111,8 +105,9 @@ export default function Home() {
       </section>
 
       {/* How to use Product  end*/}
-
+      <h1 className='client'>Our Clients </h1>
       <section className=" client-slider">
+      
       <Testimonial/>
       </section>
     

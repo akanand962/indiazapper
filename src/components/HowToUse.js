@@ -31,26 +31,7 @@ export default function HowToUse() {
           </div>
         </div>
 
-        <div className="step2">
-          <div>
-            <img src={proImg2} alt="pro-image" width="100%" />
-          </div>
-
-          <div>
-            <p className="use-title">How To Use Silver</p>
-            <p className="use-desc">
-              Colloidal Silver is made by mixing micro silver particles into
-              water. Colloidal are minute particles of the mettle which, after
-              mixing in any liquid matter (such as water), neither dissolve nor
-              develop any ionic compound. These microparticles of silver do not
-              drown in the water but keep floating. Generally ionic silver,
-              silver colloidal, ionic silver compound or silver protein present
-              in pure water is called colloidal silver. It is absolutely pure
-              silver mixed water.
-            </p>
-            <a href={pdf} download>Click Here For pdf Book</a>
-          </div>
-        </div>
+       
 
         <div className="step3">
           <div>
@@ -73,6 +54,27 @@ export default function HowToUse() {
               the body, except head and face. Pulsar can be used at body parts
               where the current of the Zapper doesn't reach and parasites such
               as lymph system, stomach and intestines can be killed.
+            </p>
+            <a href={pdf} download>Click Here For pdf Book</a>
+          </div>
+        </div>
+
+        <div className="step2">
+          <div>
+            <img src={proImg2} alt="pro-image" width="100%" />
+          </div>
+
+          <div>
+            <p className="use-title">How To Use Silver</p>
+            <p className="use-desc">
+              Colloidal Silver is made by mixing micro silver particles into
+              water. Colloidal are minute particles of the mettle which, after
+              mixing in any liquid matter (such as water), neither dissolve nor
+              develop any ionic compound. These microparticles of silver do not
+              drown in the water but keep floating. Generally ionic silver,
+              silver colloidal, ionic silver compound or silver protein present
+              in pure water is called colloidal silver. It is absolutely pure
+              silver mixed water.
             </p>
             <a href={pdf} download>Click Here For pdf Book</a>
           </div>
