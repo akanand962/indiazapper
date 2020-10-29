@@ -3,7 +3,7 @@
 }
 .bg-light {
   /* background-color: #a78686!important; */
-  background-image: linear-gradient(to right, #ad5234 , #66b432);
+  background-image: linear-gradient(to right, #f9f6f6 , #66b432);
 }
 .bg-dark {
   background-color: #010f17!important;
@@ -14,7 +14,7 @@
     padding: 3px 6px;
     border-radius:15px;
     border: 1px solid #241e29;
-    background: linear-gradient(90deg, rgb(0 124 195) 0%, rgb(165 90 56) 50%, rgb(0 124 195) 100%);
+    background: linear-gradient(90deg, rgb(0 124 195) 0%, 50%, rgb(0 124 195) 100%);
     color: white;
 
    
@@ -22,12 +22,17 @@
 .nav-link{
  white-space: nowrap;
 }
+.contact-info{
+  display: flex;
+  justify-content: space-around;
+  flex:1
+}
 .buynow{
   padding: 4px 25px !important;
   border-radius: 47px;
   /* border: 2px solid #007BFF; */
   background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgb(0 124 195) 0%, rgb(165 90 56) 50%, rgb(0 124 195) 100%);
+  background: linear-gradient(90deg, rgb(0 124 195) , 50%, rgb(0 124 195) 100%);
   color: white;
       
 }
@@ -78,6 +83,9 @@
 @media(max-width:600px){
   .track-order{
     flex-direction: row;
+  }
+  .contact-info{
+  display: none;
   }
   
 }

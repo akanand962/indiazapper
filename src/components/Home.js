@@ -1,45 +1,42 @@
 import React from "react";
 import "../assets/css/home.css";
 import {Link} from 'react-router-dom'
-import img1 from "../assets/images/zapper img2.jpg";
-import img2 from "../assets/images/zapper img3.png";
-import img3 from "../assets/images/zapper img4.png";
+import img1 from "../assets/images/ourpro2.jpg";
+import img2 from "../assets/images/ourpro.jpg";
+import img3 from "../assets/images/ourpro1.jpg";
 import productImage from "../assets/images/zapper new.jpg";
 import Carousel from "react-elastic-carousel";
 import Slider from './Slider'
  import Testimonial from "./Testimonial";
+ 
+
 
 
 export default function Home() {
   return (
     <div>
       {/* <p className="p-function">Function of Product</p> */}
+      <Slider/>
       <section className="container  about-product">
         <div className="card">
-          {/* <img src={img1} class="card-img-top" alt="product-image" /> */}
-          <div className="card-body">
-            <p className="card-text">
-             Our Product
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          {/* <img src={img2} class="card-img-top" alt="product-image" /> */}
-
-          <div className="card-body">
-          <p className="card-text">
-             Our Product
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          {/* <img src={img3} class="card-img-top" alt="product-image" /> */}
-
-          <div className="card-body">
-          <p className="card-text">
+          <img src={img1} class="card-img-top" alt="product-image" />
+          <div className="card-body1">
           
-            <a href='https://www.srivedicpratisthan.com/' >Another Product</a>
-            </p>
+          </div>
+        </div>
+        <div className="card">
+        <a href='https://www.srivedicpratisthan.com/' >
+          <img src={img2} class="card-img-top" alt="product-image" />
+          </a>
+          <div className="card-body">
+         
+          </div>
+        </div>
+        <div className="card card-1">
+          <img src={img3} class="card-img-top" alt="product-image" />
+
+          <div className="card-body">
+         
           </div>
         </div>
       </section>

@@ -16,15 +16,15 @@ export default function Header() {
         <div className="container main-div ">
        
        
-        <a className="nav-link text-white fa fa-mobile" href="#"> 7290053590</a>
+          <div className='contact-info'>
+          <a className="nav-link text-white fa fa-mobile" href="#"> 7290053590</a>
         <a className="nav-link text-white fa fa-phone" href="#"> 011-47385182/69</a>
         <a className="nav-link text-white fa fa-email" href="#"> vedic1804@gmail.com</a>
-            
+        <a className="nav-link text-white fa fa-email" href="https://www.delhivery.com/"> Track Your Order</a>
+          </div>
          
           <div className="navbar-nav track-order">
-            <a className="nav-link text-white" href="https://www.delhivery.com/">
-              Track Your Order
-            </a>
+          
             <a className="nav-link text-white " href="#">
               English
             </a>

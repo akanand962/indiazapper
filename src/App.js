@@ -1,5 +1,5 @@
 import React ,{useState} from 'react';
-import Carousel from './components/Slider'
+
 import Home from './components/Home'
 import Footer from './components/Footer'
 import {BrowserRouter as Router , Route, Switch} from 'react-router-dom'
@@ -23,7 +23,7 @@ function App() {
     <div>
 <Router>
 <Header/>
-<Carousel/>
+
 <Switch>
 <Route path='/indiazapper' exact component={Home}/>
 <Route path='/about' exact component={About}/>
