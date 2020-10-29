@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/indiazapper/precache-manifest.c6aef8f8239d72d81826ff6a8b219b3a.js"
+  "/indiazapper/precache-manifest.a954b68f5c5a3763b7e25370b002f7bd.js"
 );
 
 self.addEventListener('message', (event) => {

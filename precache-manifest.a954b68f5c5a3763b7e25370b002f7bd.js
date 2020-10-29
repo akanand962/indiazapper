@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "567be14413aac9468067753441668ce9",
+    "revision": "4e74435946eab650616d7eeb2ba6c95c",
     "url": "/indiazapper/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indiazapper/static/css/2.c8bd06df.chunk.css"
   },
   {
-    "revision": "00553ff54cf79e35b02d",
-    "url": "/indiazapper/static/css/main.a6c71c7b.chunk.css"
+    "revision": "2f2958a0cee67f99ac2d",
+    "url": "/indiazapper/static/css/main.891b4008.chunk.css"
   },
   {
     "revision": "60ba30100dbca19600eb",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/indiazapper/static/js/2.09b5f33c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00553ff54cf79e35b02d",
-    "url": "/indiazapper/static/js/main.b342fcae.chunk.js"
+    "revision": "2f2958a0cee67f99ac2d",
+    "url": "/indiazapper/static/js/main.4d86d4e0.chunk.js"
   },
   {
     "revision": "5c0d031fe13e6a290836",
