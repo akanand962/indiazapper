@@ -21,7 +21,7 @@ export default function Testimonial() {
 
               <p>
                   <q className='qut'>
-                  Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals.
+                  &nbsp;&nbsp; Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals.&nbsp;&nbsp;
                   </q>
                   </p>
            </Item>
@@ -30,7 +30,7 @@ export default function Testimonial() {
            <strong> Akhilesh</strong>
               <p>
                   <q className='qut'>
-                  Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals.
+                  &nbsp;&nbsp; Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals. &nbsp;&nbsp;
                   </q>
                   </p>
            </Item>
@@ -40,7 +40,7 @@ export default function Testimonial() {
 
               <p>
                   <q className='qut'>
-                  Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals.
+                  &nbsp;&nbsp; Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals. &nbsp;&nbsp;
                   </q>
                   </p>
            </Item>
