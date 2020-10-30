@@ -20,7 +20,7 @@ function App() {
   }
   const show = menu?'show':''
   return (
-    <div>
+    <div className='App'>
 <Router>
 <Header/>
 

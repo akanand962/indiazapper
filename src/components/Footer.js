@@ -28,9 +28,11 @@ export default function Footer() {
           </div>
           <div className='f-div'>
              <h3>Connect with Us</h3>
-             <a className="nav-link text-white fa fa-facebook" href="#"></a>
-             <a className="nav-link text-white fa fa-instagram" href="#"></a>
-           <a className="nav-link text-white fa fa-youtube" href="#"></a>
+             <div>
+            <a className="nav-link text-white fa fa-facebook"  target="_blank" href="https://www.facebook.com/indianzapperdelux"></a>
+            <a className="nav-link text-white fa fa-instagram" target="_blank" href="https://www.instagram.com/"></a>
+            <a className="nav-link text-white fa fa-youtube" target="_blank" href="youtube.com"></a>
+          </div>
 
 
 

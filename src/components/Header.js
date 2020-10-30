@@ -30,9 +30,9 @@ export default function Header() {
             </a>
           </div>
           <div className="social-icon">
-            <a className="nav-link text-white fa fa-facebook" href="#"></a>
-            <a className="nav-link text-white fa fa-instagram" href="#"></a>
-            <a className="nav-link text-white fa fa-youtube" href="#"></a>
+            <a className="nav-link text-white fa fa-facebook"  target="_blank" href="https://www.facebook.com/indianzapperdelux"></a>
+            <a className="nav-link text-white fa fa-instagram" target="_blank" href="https://www.instagram.com/"></a>
+            <a className="nav-link text-white fa fa-youtube" target="_blank" href="youtube.com"></a>
           </div>
         </div>
       </nav>
