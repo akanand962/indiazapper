@@ -49,7 +49,7 @@ export default function Home() {
       {/* Product description  start*/}
       <section className="pro-des">
 
-        <div className="des-title"><p>Product Descrip</p></div>
+        <div className="des-title"><p>Product Description</p></div>
          
         <div className="container pro-dess">
          <div className='des-div'>

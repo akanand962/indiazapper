@@ -7,7 +7,7 @@ export default function Contact() {
     const history = useHistory()
 
     const order = ()=>{
-        alert(' Your Orderv Successfully  ')
+        alert(' Your Order Successfully  ')
         history.push('/')
         
     }

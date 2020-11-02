@@ -44,6 +44,16 @@ export default function Testimonial() {
                   </q>
                   </p>
            </Item>
+            <Item className='main'>
+           <img src={img2} alt='' width='50px' height='50px' className='client-image'/>
+           <strong>Vijay</strong>
+
+              <p>
+                  <q className='qut'>
+                  &nbsp;&nbsp; Every good company wants to provide excellent customer service, but it’s not always easy to balance that with other business needs and goals. &nbsp;&nbsp;
+                  </q>
+                  </p>
+           </Item>
           
         </Carousel>
     </>
