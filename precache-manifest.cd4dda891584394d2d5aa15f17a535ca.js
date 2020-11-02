@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c414c78cee12ab7b3c0499501b70ab9",
+    "revision": "70d75c3dff07f480f1a8c9e911445557",
     "url": "/indiazapper/index.html"
   },
   {
-    "revision": "3cd5ec19b19686b4478c",
+    "revision": "4eed595b770d93219995",
     "url": "/indiazapper/static/css/2.c8bd06df.chunk.css"
   },
   {
-    "revision": "10be28eab059dfc2d727",
+    "revision": "ca19e7e3896c69ade14e",
     "url": "/indiazapper/static/css/main.b6865972.chunk.css"
   },
   {
-    "revision": "3cd5ec19b19686b4478c",
-    "url": "/indiazapper/static/js/2.e3a74b2c.chunk.js"
+    "revision": "4eed595b770d93219995",
+    "url": "/indiazapper/static/js/2.4ffa3291.chunk.js"
   },
   {
     "revision": "22c95ed68071a711843b9981e2bca1af",
-    "url": "/indiazapper/static/js/2.e3a74b2c.chunk.js.LICENSE.txt"
+    "url": "/indiazapper/static/js/2.4ffa3291.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10be28eab059dfc2d727",
-    "url": "/indiazapper/static/js/main.bb19fb22.chunk.js"
+    "revision": "ca19e7e3896c69ade14e",
+    "url": "/indiazapper/static/js/main.35ded3e9.chunk.js"
   },
   {
     "revision": "5c0d031fe13e6a290836",
