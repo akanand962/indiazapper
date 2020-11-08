@@ -25,7 +25,7 @@ function App() {
 <Header/>
 
 <Switch>
-<Route path='/indiazapper' exact component={Home}/>
+<Route path='/' exact component={Home}/>
 <Route path='/about' exact component={About}/>
 <Route path='/our-product' exact component={OurProduct}/>
 

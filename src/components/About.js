@@ -13,11 +13,11 @@ export default function About() {
                     <img src={aboutImage} alt='about image' width='100%' height='100%'  />
                 </div>
                 <div className='img-div'>
-                    <h2>Sri Vedic Pratisthan, Gautam Nagar</h2>
+                    <h2>Sri Vedic Pratisthan</h2>
                     <p>
-             Sri Vedic Pratisthan in Gautam Nagar,
-            Delhi is a top player in the category Rudraksha Mala Dealers in the Delhi.
-              This well-known establishment acts as a one-stop</p>
+             Sri Vedic Pratisthan 
+             We have faith in "Fix Yourself" where a patient can assist themselves with their own endeavors by following the Cleansing Therapy. It encourages you to deal with your wellbeing where you let the body's characteristic working accomplish its work and eliminate the obstructions that upset it.
+             </p>
                
                 </div>
 
