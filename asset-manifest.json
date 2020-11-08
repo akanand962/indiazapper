@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/indiazapper/static/css/main.b6865972.chunk.css",
-    "main.js": "/indiazapper/static/js/main.35ded3e9.chunk.js",
-    "main.js.map": "/indiazapper/static/js/main.35ded3e9.chunk.js.map",
+    "main.js": "/indiazapper/static/js/main.9dc59bba.chunk.js",
+    "main.js.map": "/indiazapper/static/js/main.9dc59bba.chunk.js.map",
     "runtime-main.js": "/indiazapper/static/js/runtime-main.e2b1dd37.js",
     "runtime-main.js.map": "/indiazapper/static/js/runtime-main.e2b1dd37.js.map",
     "static/css/2.c8bd06df.chunk.css": "/indiazapper/static/css/2.c8bd06df.chunk.css",
-    "static/js/2.4ffa3291.chunk.js": "/indiazapper/static/js/2.4ffa3291.chunk.js",
-    "static/js/2.4ffa3291.chunk.js.map": "/indiazapper/static/js/2.4ffa3291.chunk.js.map",
+    "static/js/2.f74f1b12.chunk.js": "/indiazapper/static/js/2.f74f1b12.chunk.js",
+    "static/js/2.f74f1b12.chunk.js.map": "/indiazapper/static/js/2.f74f1b12.chunk.js.map",
     "index.html": "/indiazapper/index.html",
-    "precache-manifest.cd4dda891584394d2d5aa15f17a535ca.js": "/indiazapper/precache-manifest.cd4dda891584394d2d5aa15f17a535ca.js",
+    "precache-manifest.700b7e9d94c0a4cd1ff91d01d3f69a75.js": "/indiazapper/precache-manifest.700b7e9d94c0a4cd1ff91d01d3f69a75.js",
     "service-worker.js": "/indiazapper/service-worker.js",
     "static/css/2.c8bd06df.chunk.css.map": "/indiazapper/static/css/2.c8bd06df.chunk.css.map",
     "static/css/main.b6865972.chunk.css.map": "/indiazapper/static/css/main.b6865972.chunk.css.map",
-    "static/js/2.4ffa3291.chunk.js.LICENSE.txt": "/indiazapper/static/js/2.4ffa3291.chunk.js.LICENSE.txt",
+    "static/js/2.f74f1b12.chunk.js.LICENSE.txt": "/indiazapper/static/js/2.f74f1b12.chunk.js.LICENSE.txt",
     "static/media/3.jpg": "/indiazapper/static/media/3.878aafa9.jpg",
-    "static/media/SLIDE 2.jpg": "/indiazapper/static/media/SLIDE 2.8f2a1aa8.jpg",
+    "static/media/SLIDE 2.jpg": "/indiazapper/static/media/SLIDE 2.4b6b914a.jpg",
     "static/media/SLIDE 3.jpg": "/indiazapper/static/media/SLIDE 3.f9242ceb.jpg",
     "static/media/Single English Booklet.pdf": "/indiazapper/static/media/Single English Booklet.76e06021.pdf",
     "static/media/Single Hindi Booklet.pdf": "/indiazapper/static/media/Single Hindi Booklet.fc911dae.pdf",
@@ -25,7 +25,7 @@
     "static/media/ourpro.jpg": "/indiazapper/static/media/ourpro.4b210ccc.jpg",
     "static/media/ourpro1.jpg": "/indiazapper/static/media/ourpro1.6f01025b.jpg",
     "static/media/ourpro2.jpg": "/indiazapper/static/media/ourpro2.c03d8ecd.jpg",
-    "static/media/product-buy.jpg": "/indiazapper/static/media/product-buy.8fb46804.jpg",
+    "static/media/product-buy1.jpg": "/indiazapper/static/media/product-buy1.937b07ce.jpg",
     "static/media/product1.jpg": "/indiazapper/static/media/product1.aa0eab6b.jpg",
     "static/media/pulsar.jpg": "/indiazapper/static/media/pulsar.1850867b.jpg",
     "static/media/silver.jpg": "/indiazapper/static/media/silver.cd47b66a.jpg",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.e2b1dd37.js",
     "static/css/2.c8bd06df.chunk.css",
-    "static/js/2.4ffa3291.chunk.js",
+    "static/js/2.f74f1b12.chunk.js",
     "static/css/main.b6865972.chunk.css",
-    "static/js/main.35ded3e9.chunk.js"
+    "static/js/main.9dc59bba.chunk.js"
   ]
 }
