@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../assets/css/header.css";
-import logo from '../assets/images/logo.png'
+
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -42,7 +42,7 @@ export default function Header() {
       <nav className=" navbar navbar-expand-lg navbar-light bg-light ">
        
         <Link className="navbar-brand" to="/">
-          <img src={logo}  alt='logo' width='13%' height='13%'/>
+          <img src= {process.env.PUBLIC_URL + '/logo.png'}  alt='logo' width='13%' height='13%'/>
         </Link>
        
         <button
