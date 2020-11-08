@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dc002d30.chunk.css",
-    "main.js": "/static/js/main.9b45f523.chunk.js",
-    "main.js.map": "/static/js/main.9b45f523.chunk.js.map",
+    "main.js": "/static/js/main.3d332dba.chunk.js",
+    "main.js.map": "/static/js/main.3d332dba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e7a7671e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e7a7671e.js.map",
     "static/css/2.c8bd06df.chunk.css": "/static/css/2.c8bd06df.chunk.css",
-    "static/js/2.401a1d7b.chunk.js": "/static/js/2.401a1d7b.chunk.js",
-    "static/js/2.401a1d7b.chunk.js.map": "/static/js/2.401a1d7b.chunk.js.map",
+    "static/js/2.ad0913d1.chunk.js": "/static/js/2.ad0913d1.chunk.js",
+    "static/js/2.ad0913d1.chunk.js.map": "/static/js/2.ad0913d1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dcfa4e492147f3ba40529d9f86f3e383.js": "/precache-manifest.dcfa4e492147f3ba40529d9f86f3e383.js",
+    "precache-manifest.4271ae82e9502c79f64612f3210c73a2.js": "/precache-manifest.4271ae82e9502c79f64612f3210c73a2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c8bd06df.chunk.css.map": "/static/css/2.c8bd06df.chunk.css.map",
     "static/css/main.dc002d30.chunk.css.map": "/static/css/main.dc002d30.chunk.css.map",
-    "static/js/2.401a1d7b.chunk.js.LICENSE.txt": "/static/js/2.401a1d7b.chunk.js.LICENSE.txt",
+    "static/js/2.ad0913d1.chunk.js.LICENSE.txt": "/static/js/2.ad0913d1.chunk.js.LICENSE.txt",
     "static/media/3.jpg": "/static/media/3.878aafa9.jpg",
     "static/media/SLIDE 2.jpg": "/static/media/SLIDE 2.4b6b914a.jpg",
     "static/media/SLIDE 3.jpg": "/static/media/SLIDE 3.f9242ceb.jpg",
@@ -21,7 +21,6 @@
     "static/media/Single Hindi Booklet.pdf": "/static/media/Single Hindi Booklet.fc911dae.pdf",
     "static/media/home.css": "/static/media/about-banner.9a5db07d.jpg",
     "static/media/about.css": "/static/media/banner1.503da5e7.jpg",
-    "static/media/logo.png": "/static/media/logo.af7363aa.png",
     "static/media/ourpro.jpg": "/static/media/ourpro.4b210ccc.jpg",
     "static/media/ourpro1.jpg": "/static/media/ourpro1.6f01025b.jpg",
     "static/media/ourpro2.jpg": "/static/media/ourpro2.c03d8ecd.jpg",
@@ -36,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.e7a7671e.js",
     "static/css/2.c8bd06df.chunk.css",
-    "static/js/2.401a1d7b.chunk.js",
+    "static/js/2.ad0913d1.chunk.js",
     "static/css/main.dc002d30.chunk.css",
-    "static/js/main.9b45f523.chunk.js"
+    "static/js/main.3d332dba.chunk.js"
   ]
 }
