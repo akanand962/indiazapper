@@ -41,7 +41,7 @@ export default function Header() {
      
       <nav className=" navbar navbar-expand-lg navbar-light bg-light ">
        
-        <Link className="navbar-brand" to="/indiazapper">
+        <Link className="navbar-brand" to="/">
           <img src={logo}  alt='logo' width='13%' height='13%'/>
         </Link>
        
@@ -59,7 +59,7 @@ export default function Header() {
         {/* <div className={"collapse navbar-collapse" + show}> */}
         <div className={"collapse navbar-collapse  " + show}>
           <div className="navbar-nav ml-auto ">
-            <Link className="nav-link active text-white " text-seccess to="/indiazapper">
+            <Link className="nav-link active text-white " text-seccess to="/">
               Home <span class="sr-only">(current)</span>
             </Link>
             <Link className="nav-link text-white" to="/about">
