@@ -1,7 +1,25 @@
-import React from 'react'
+import React ,{useState,useEffect} from 'react'
 import '../assets/css/footer.css';
 
 export default function Footer() {
+
+ const [visitor,setVisito] = useState(0)
+
+useEffect(
+  function updateVisitCount() {
+    fetch('https://api.countapi.xyz/hit/localhost3000indiazapper/visits')
+    .then(res => res.json())
+    .then(res => {
+      setVisito(res.value)
+    })
+  }
+,[])
+
+
+
+
+
+
     return (
         <div className='main-footer'>
             <div className='container footer'>
@@ -13,8 +31,6 @@ export default function Footer() {
         <a className="nav-link text-white fa fa-mobile" href="#"> 7290053590</a>
         <a className="nav-link text-white fa fa-phone" href="#"> 011-47385182/69</a>
         <a className="nav-link text-white fa fa-email" href="#"> Email:- vedic1804@gmail.com</a>
-
-
 
           </div>
           <div className='f-div'>
@@ -32,6 +48,7 @@ export default function Footer() {
             <a className="nav-link text-white fa fa-facebook"  target="_blank" href="https://www.facebook.com/indianzapperdelux"></a>
             <a className="nav-link text-white fa fa-instagram" target="_blank" href="https://www.instagram.com/"></a>
             <a className="nav-link text-white fa fa-youtube" target="_blank" href="youtube.com"></a>
+            <button className='btn btn-primary'>Visitor {visitor}</button>
           </div>
 
 
@@ -42,11 +59,12 @@ export default function Footer() {
              <p>Term And Condition</p>
              <p>Refund Policy</p>
              <p>Track Your Order</p>
+             
 
           </div>
         </div>
           <div className='copy-write'>
-              <p style={{textAlign:"center"}}>Copyright © 2020 Sri Vedic Pratisthan, All Rights Reserved.</p>
+            <p style={{textAlign:"center"}}>Copyright © 2020 Sri Vedic Pratisthan, All Rights Reserved.</p>
           </div>
          
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import {useHistory} from 'react-router-dom'
 import "../assets/css/order.css";
-import pro from "../assets/images/product-buy.jpg";
+import pro from "../assets/images/product-buy1.jpg";
 
 export default function Contact() {
     const history = useHistory()
