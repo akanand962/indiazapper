@@ -10,6 +10,8 @@ export default function Header() {
     setMenu(!menu);
   };
   const show = menu ? "show" : "";
+
+  
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -23,12 +25,10 @@ export default function Header() {
         <a className="nav-link text-white fa fa-email" href="https://www.delhivery.com/"> Track Your Order</a>
           </div>
          
-          <div className="navbar-nav track-order">
-          
-            <a className="nav-link text-white " href="#">
-              English
-            </a>
-          </div>
+          <div id="google_translate_element" class="col-md-2">
+     
+            </div>
+         
           <div className="social-icon">
             <a className="nav-link text-white fa fa-facebook"  target="_blank" href="https://www.facebook.com/indianzapperdelux"></a>
             <a className="nav-link text-white fa fa-instagram" target="_blank" href="https://www.instagram.com/"></a>

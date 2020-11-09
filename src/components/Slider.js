@@ -18,10 +18,10 @@ export default function Slider() {
                 </div>
                 <div>
                     <img src={banner2}  />
-                    <p className="legend">
+                    {/* <p className="legend">
                         India No.1 Virus Killing Product
                     </p>
-                    
+                     */}
                    
                 </div>
                 <div>
