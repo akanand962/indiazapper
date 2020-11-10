@@ -14,12 +14,13 @@ import Contact from './components/Contact';
 
 function App() {
   const [menu,setMenu] = useState(false)
+ const [load, setLoad] = useState(false)
 
   const togglMenu  = ()=>{
       setMenu(!menu)
   }
   const show = menu?'show':''
-  
+
   return (
     <div className='App'>
 <Router>

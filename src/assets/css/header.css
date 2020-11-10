@@ -8,6 +8,7 @@
 .bg-dark {
   background-color: #010f17!important;
   height: 45px;
+
 }
 
 .order-btn{
@@ -25,7 +26,12 @@
 .contact-info{
   display: flex;
   justify-content: space-around;
-  flex:1
+  flex:1;
+ 
+}
+.text-white{
+  font-size:15px !important;
+  font-weight: 600;
 }
 .buynow{
   padding: 4px 25px !important;

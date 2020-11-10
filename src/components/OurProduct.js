@@ -1,5 +1,6 @@
 import React from "react";
-import pro from "../assets/images/product1.jpg";
+// import pro from "../assets/images/product1.jpg";
+import pro from "../assets/images/product-buy1.jpg";
 import "../assets/css/product.css";
 
 export default function OurProduct() {

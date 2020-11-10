@@ -13,14 +13,15 @@ export default function Contact() {
     }
   return (
     <div className="container">
-      <div className="shiping-address">
+      <div>
         <div className="prod-des">
           <div>
-            <img src={pro} alt="product-image" width="100%" height="50%" />
+            <img src={pro} alt="product-image" width="100%"  />
            
           </div>
           <div className='price'>
-              <p>Sri Vedic Pratisthan :- INDIA ZAPPER DELUX ( Pulsar + Zapper + Colloidal Silver (3 IN 1) for 3200+ Body Parasites Cleanser.</p>
+              <p>Sri Vedic Pratisthan :- INDIAN ZAPPER DELUX <br/>
+                ( Pulsar + Zapper + Colloidal Silver (3 IN 1) for 3200+ Body Parasites Cleanser.</p>
             <strong className="pre-amount"> Rs:19999</strong>
             <strong className="amount">Offer Rs:9999</strong>
             <p>Generally delivered in 5 - 9 days</p>
@@ -28,7 +29,10 @@ export default function Contact() {
           </div>
         </div>
 
-        <div>
+       
+      </div>
+
+      <div className='form-add'>
           <h2 className='text-center'>Shipping Address</h2>
           <form>
             <div class="form-group">
@@ -114,8 +118,8 @@ export default function Contact() {
               Submit
             </button>
           </form>
+       
         </div>
-      </div>
     </div>
  
  

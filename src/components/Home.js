@@ -5,6 +5,7 @@ import img1 from "../assets/images/ourpro2.jpg";
 import img2 from "../assets/images/ourpro.jpg";
 import img3 from "../assets/images/ourpro1.jpg";
 import productImage from "../assets/images/zapper new.jpg";
+import pro from "../assets/images/product-buy1.jpg";
 import Carousel from "react-elastic-carousel";
 import Slider from './Slider'
  import Testimonial from "./Testimonial";
@@ -53,7 +54,7 @@ export default function Home() {
          
         <div className="container pro-dess">
          <div className='des-div'>
-        <img src={img1} class="card-img-top" alt="product-image" width='300px' height='300px' />
+        <img src={pro} class="card-img-top" alt="product-image" width='90%' />
 
          </div>
 
@@ -76,7 +77,7 @@ export default function Home() {
       {/* Product description  end*/}
 
       {/* How to use Product  Start*/}
-      <section >
+      {/* <section >
       <div className='p-des'>
         <div className="use-title"> <p>How to Use Product</p></div>
      
@@ -103,6 +104,8 @@ export default function Home() {
           
         </div>
       </section>
+ */}
+
 
       {/* How to use Product  end*/}
       <h1 className='client'>Our Clients </h1>

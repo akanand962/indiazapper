@@ -1,21 +1,26 @@
 .shiping-address{
-    display: flex;
-    justify-content:space-between;
- margin-top: 30px;
+    /* display: flex;
+    justify-content:space-between; */
+   margin-top: 30px;
    margin-bottom: 20px;
 }
 .shiping-address >div{
     width: 48%;
    
 }
+.form-add{
+    max-width: 50%;
+    margin-bottom: 20px;
+}
 .prod-des{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom:30px;
+
 }
 .prod-des >div{
-    width: 49%;
- 
+    width: 40%;
    
 }
 .pre-amount{ 
