@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c76ef3b2545638c26581bf2ce669aee",
+    "revision": "45d8a9c82e21e6b205751418482467fa",
     "url": "/index.html"
   },
   {
-    "revision": "0d9ea4ab36d5f7b11ce1",
+    "revision": "83a7ccbc09cc5a257a68",
     "url": "/static/css/2.c8bd06df.chunk.css"
   },
   {
-    "revision": "8b44c26d48414aa4a29f",
-    "url": "/static/css/main.66695c52.chunk.css"
+    "revision": "8f1cd90e490c6d4a7b98",
+    "url": "/static/css/main.832db434.chunk.css"
   },
   {
-    "revision": "0d9ea4ab36d5f7b11ce1",
-    "url": "/static/js/2.ad0913d1.chunk.js"
+    "revision": "83a7ccbc09cc5a257a68",
+    "url": "/static/js/2.b9354cdf.chunk.js"
   },
   {
     "revision": "22c95ed68071a711843b9981e2bca1af",
-    "url": "/static/js/2.ad0913d1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b9354cdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b44c26d48414aa4a29f",
-    "url": "/static/js/main.fa2fddc3.chunk.js"
+    "revision": "8f1cd90e490c6d4a7b98",
+    "url": "/static/js/main.afc1ef52.chunk.js"
   },
   {
     "revision": "fb4756e5fd40b78c0d23",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "937b07ce6322db0aec9cf9fbc672eede",
     "url": "/static/media/product-buy1.937b07ce.jpg"
-  },
-  {
-    "revision": "aa0eab6b654e0c547ea25e6ac0eed292",
-    "url": "/static/media/product1.aa0eab6b.jpg"
   },
   {
     "revision": "1850867b5e25a0eca7ef17e5eb8d3878",

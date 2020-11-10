@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.66695c52.chunk.css",
-    "main.js": "/static/js/main.fa2fddc3.chunk.js",
-    "main.js.map": "/static/js/main.fa2fddc3.chunk.js.map",
+    "main.css": "/static/css/main.832db434.chunk.css",
+    "main.js": "/static/js/main.afc1ef52.chunk.js",
+    "main.js.map": "/static/js/main.afc1ef52.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e7a7671e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e7a7671e.js.map",
     "static/css/2.c8bd06df.chunk.css": "/static/css/2.c8bd06df.chunk.css",
-    "static/js/2.ad0913d1.chunk.js": "/static/js/2.ad0913d1.chunk.js",
-    "static/js/2.ad0913d1.chunk.js.map": "/static/js/2.ad0913d1.chunk.js.map",
+    "static/js/2.b9354cdf.chunk.js": "/static/js/2.b9354cdf.chunk.js",
+    "static/js/2.b9354cdf.chunk.js.map": "/static/js/2.b9354cdf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e8b6e428105793cc6b4cb7c4c03abd4.js": "/precache-manifest.9e8b6e428105793cc6b4cb7c4c03abd4.js",
+    "precache-manifest.66f01d28c5e394247dad4630f2b34de8.js": "/precache-manifest.66f01d28c5e394247dad4630f2b34de8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c8bd06df.chunk.css.map": "/static/css/2.c8bd06df.chunk.css.map",
-    "static/css/main.66695c52.chunk.css.map": "/static/css/main.66695c52.chunk.css.map",
-    "static/js/2.ad0913d1.chunk.js.LICENSE.txt": "/static/js/2.ad0913d1.chunk.js.LICENSE.txt",
+    "static/css/main.832db434.chunk.css.map": "/static/css/main.832db434.chunk.css.map",
+    "static/js/2.b9354cdf.chunk.js.LICENSE.txt": "/static/js/2.b9354cdf.chunk.js.LICENSE.txt",
     "static/media/3.jpg": "/static/media/3.878aafa9.jpg",
     "static/media/SLIDE 2.jpg": "/static/media/SLIDE 2.4b6b914a.jpg",
     "static/media/SLIDE 3.jpg": "/static/media/SLIDE 3.f9242ceb.jpg",
@@ -25,7 +25,6 @@
     "static/media/ourpro1.jpg": "/static/media/ourpro1.6f01025b.jpg",
     "static/media/ourpro2.jpg": "/static/media/ourpro2.c03d8ecd.jpg",
     "static/media/product-buy1.jpg": "/static/media/product-buy1.937b07ce.jpg",
-    "static/media/product1.jpg": "/static/media/product1.aa0eab6b.jpg",
     "static/media/pulsar.jpg": "/static/media/pulsar.1850867b.jpg",
     "static/media/silver.jpg": "/static/media/silver.cd47b66a.jpg",
     "static/media/zapper img3.png": "/static/media/zapper img3.1eb47769.png",
@@ -35,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.e7a7671e.js",
     "static/css/2.c8bd06df.chunk.css",
-    "static/js/2.ad0913d1.chunk.js",
-    "static/css/main.66695c52.chunk.css",
-    "static/js/main.fa2fddc3.chunk.js"
+    "static/js/2.b9354cdf.chunk.js",
+    "static/css/main.832db434.chunk.css",
+    "static/js/main.afc1ef52.chunk.js"
   ]
 }
