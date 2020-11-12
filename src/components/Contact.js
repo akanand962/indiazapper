@@ -1,7 +1,10 @@
 import React from "react";
-import {useHistory} from 'react-router-dom'
+
 import "../assets/css/order.css";
 import pro from "../assets/images/product-buy1.jpg";
+import {Instamojo} from 'instamojo-nodejs'
+import {axios} from 'axios'
+import { Redirect,useHistory } from "react-router-dom";
 
 export default function Contact() {
     const history = useHistory()
@@ -10,6 +13,12 @@ export default function Contact() {
         alert(' Your Order Successfully  ')
         history.push('/')
         
+    }
+    const buyNow = ()=>{
+     
+      window.location.replace('https://test.instamojo.com/@dev_akhilesh90')
+  
+  
     }
   return (
     <div className="container">
@@ -26,13 +35,14 @@ export default function Contact() {
             <strong className="amount">Offer Rs:9999</strong>
             <p>Generally delivered in 5 - 9 days</p>
             <p></p>
+            <button className='btn btn-success' onClick={buyNow}>BUY NOW</button>
           </div>
         </div>
 
        
       </div>
 
-      <div className='form-add'>
+      {/* <div className='form-add'>
           <h2 className='text-center'>Shipping Address</h2>
           <form>
             <div class="form-group">
@@ -120,6 +130,7 @@ export default function Contact() {
           </form>
        
         </div>
+    */}
     </div>
  
  
