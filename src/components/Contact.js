@@ -16,7 +16,8 @@ export default function Contact() {
     }
     const buyNow =  ()=>{
      
-        window.location.replace('https://test.instamojo.com/@advt/l7672ec33a9264e5e828c292dee34904f/')
+        window.location.replace('https://imjo.in/tqmteQ')
+        
     //   const data = {
     //     purpose: 'FIFA 16',
     //     amount: '2500',
