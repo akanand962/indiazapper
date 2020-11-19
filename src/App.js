@@ -9,6 +9,9 @@ import About from './components/About';
 import OurProduct from './components/OurProduct';
 import HowToUse from './components/HowToUse';
 import Contact from './components/Contact';
+import ShippingAddress from './components/ShippingAddress';
+import Order from './components/Order';
+
 
 
 
@@ -32,6 +35,10 @@ function App() {
 <Route path='/our-product' exact component={OurProduct}/>
 
 <Route path='/how-to-use' exact component={HowToUse}/>
+<Route path='/order' exact component={Order}/>
+<Route path='/shipping-address' exact component={ShippingAddress}/>
+
+
 <Route path='/contact-us' exact component={Contact}/>
 
 

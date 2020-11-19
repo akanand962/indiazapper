@@ -8,15 +8,15 @@ import { Redirect,useHistory } from "react-router-dom";
 
 export default function Contact() {
     const history = useHistory()
-
     const order = ()=>{
         alert(' Your Order Successfully  ')
         history.push('/')
         
     }
-    const buyNow =  ()=>{
-     
-        window.location.replace('https://imjo.in/tqmteQ')
+  
+    const buyNow = ()=>{
+    
+      window.location.replace('https://imjo.in/tqmteQ')
         
     //   const data = {
     //     purpose: 'FIFA 16',

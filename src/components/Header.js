@@ -72,7 +72,7 @@ export default function Header() {
               How to Use
             </Link>
             {/* <Link className="nav-link text-white" to='/contact-us'>Contact us</Link> */}
-            <Link className="nav-link text-white buynow" to="/contact-us">
+            <Link className="nav-link text-white buynow" to="/order">
               BUY NOW
             </Link>
           </div>
