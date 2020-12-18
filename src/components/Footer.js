@@ -1,5 +1,6 @@
 import React ,{useState,useEffect} from 'react'
 import '../assets/css/footer.css';
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
 
@@ -56,9 +57,11 @@ useEffect(
           </div>
           <div className='f-div'>
           <h3>Connect with Us</h3>
-             <p>Term And Condition</p>
-             <p>Refund Policy</p>
-             <p>Track Your Order</p>
+          <Link  to='term-condition' className='nav-link text-white'>Term And Condition</Link>
+          <Link  to='refund-policy' className='nav-link text-white'>Refund Policy</Link>
+          <Link  to='privacy-policy' className='nav-link text-white'>Privacy Plocy</Link>
+
+            
              
 
           </div>

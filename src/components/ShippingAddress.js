@@ -27,7 +27,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-            
+                required
               />
             
             </div>
@@ -37,14 +37,14 @@ export default function ShippingAddress() {
               <input
                 type="email"
                 class="form-control"
-               
+                required
               />
               <div class="form-group">
               <label for="exampleInputEmail1">mobile</label>
               <input
                 type="mobile"
                 class="form-control"
-               
+                required
               />
             
             </div>
@@ -55,7 +55,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-               
+                required
               />
             
             </div>
@@ -65,7 +65,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-               
+                required
               />
             
             </div>
@@ -75,7 +75,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-               
+                required
               />
             
             </div>
@@ -84,7 +84,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-               
+                required
               />
             
             </div>
@@ -93,7 +93,7 @@ export default function ShippingAddress() {
               <input
                 type="text"
                 class="form-control"
-               
+                required
               />
             
             </div>
