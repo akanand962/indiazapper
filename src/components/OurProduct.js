@@ -2,10 +2,14 @@ import React from "react";
 // import pro from "../assets/images/product1.jpg";
 import pro from "../assets/images/product-buy1.jpg";
 import "../assets/css/product.css";
+import {Helmet} from "react-helmet";
 
 export default function OurProduct() {
   return (
     <div className="product">
+      <Helmet>
+      <title>Herbal Parasite Cleanse Zapper Delhi|Mumbai| Bangalore| India</title>
+      </Helmet>
       <div className="p-title">
         <h1>Product</h1>
       </div>

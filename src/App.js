@@ -1,4 +1,5 @@
-import React ,{useState} from 'react';
+import React ,{useState,useEffect} from 'react';
+import firebase from './firebase'
 
 import Home from './components/Home'
 import Footer from './components/Footer'
@@ -14,7 +15,7 @@ import Order from './components/Order';
 import PrivacyPolicy from './components/PrivacyPolicy'
 import Term from './components/Term'
 import RefundPolicy from './components/RefundPolicy'
-
+import {Helmet} from "react-helmet";
 
 function App() {
   const [menu,setMenu] = useState(false)
@@ -25,8 +26,30 @@ function App() {
   }
   const show = menu?'show':''
 
+  useEffect(()=>{
+    // Notification.requestPermission().then(function(permission) { 
+    //   if (permission === "granted") {
+    //     var notification = new Notification("Hi there!");
+    //   }
+    
+    // });
+     const messaging = firebase.messaging()
+     messaging.requestPermission().then(()=>{
+       return messaging.getToken()
+     }).then(token=>{
+       console.log('token',token)
+     }).catch(e=>{
+       console.log(e)
+     })
+   
+ 
+    
+  },[])
   return (
     <div className='App'>
+       <Helmet>
+      <title>Herbal Parasite Cleanse Zapper Delhi|Mumbai| Bangalore| India</title>
+      </Helmet>
 <Router>
 <Header/>
 

@@ -1,10 +1,16 @@
 import React from 'react'
 import '../assets/css/about.css'
 import  aboutImage from '../assets/images/3.jpg'
+import {Helmet} from "react-helmet";
+
 
 export default function About() {
     return (
         <div>
+            <Helmet>
+            <meta charSet="utf-8" />
+                <title>About us</title>
+            </Helmet>
             <div className='about'>
             <h1>About us</h1>
             </div>
