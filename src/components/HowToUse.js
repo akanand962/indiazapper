@@ -1,11 +1,13 @@
 import React from "react";
 import "../assets/css/how-to-use.css";
 import proImg1 from "../assets/images/zapper.jpg";
-import proImg2 from "../assets/images/silver.jpg";
+// import proImg2 from "../assets/images/silver.jpg";
+import proImg2 from "../assets/images/COLOL.jpg";
+
 import proImg3 from "../assets/images/pulsar.jpg";
 import pdfEnglish from "../assets/images/Single English Booklet.pdf";
 import pdfHindi from "../assets/images/Single Hindi Booklet.pdf";
-
+import colloidal from "../assets/images/colloidal silver.pdf";
 
 export default function HowToUse() {
   return (
@@ -71,7 +73,7 @@ export default function HowToUse() {
 
         <div className="step2">
           <div className='pro-image'>
-            <img src={proImg2} alt="pro-image" className='pro-img' width="50%" />
+            <img src={proImg2} alt="pro-image" className='pro-img' width="70%" />
           </div>
 
           <div>
@@ -90,7 +92,7 @@ export default function HowToUse() {
               Click Here For English Book
             </a>
             <br/>
-            <a href={pdfHindi} download className='downloadLink'>
+            <a href={colloidal} download className='downloadLink'>
               Click Here For Hindi Book
             </a>
           </div>
