@@ -19,9 +19,9 @@ export default function Header() {
        
        
           <div className='contact-info'>
-          <a className="nav-link text-white fa fa-mobile" href="tel:7290053590"> 7290053590</a>
-        <a className="nav-link text-white fa fa-phone" href="tel:011-47385182/69"> 011-47385182/69</a>
-        <a className="nav-link text-white fa fa-email" href="mailto:vedic1804@gmail.com"> vedic1804@gmail.com</a>
+          <a className="nav-link text-white fa fa-mobile" href="tel:7290053590">9999279991</a>
+        <a className="nav-link text-white fa fa-phone" href="tel:011-47385182/69"> 011-47385182/66</a>
+        <a className="nav-link text-white fa fa-email" href="mailto:vedic1804@gmail.com">indianzapperdelux@gmail.com</a>
         <a className="nav-link text-white fa fa-email" href="https://www.delhivery.com/"> Track Your Order</a>
           </div>
          

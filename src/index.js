@@ -5,9 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
-
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 
 ReactDOM.render(
 
@@ -15,6 +13,5 @@ ReactDOM.render(
  ,
   document.getElementById('root')
 );
-
 
 serviceWorker.unregister();
